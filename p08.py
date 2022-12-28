@@ -3,7 +3,7 @@ def p08(n=12):
     # ↓程式區域↓
     def dp(n):
         if(n <= 3):
-            output = n
+            return n
         ans = n
         for i in range(1,n+1):
             temp = i**2
